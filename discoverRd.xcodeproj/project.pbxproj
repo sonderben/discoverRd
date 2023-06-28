@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA7722402A4CCAB100920590 /* discoverRdApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA77223F2A4CCAB100920590 /* discoverRdApp.swift */; };
+		DA7722422A4CCAB100920590 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7722412A4CCAB100920590 /* ContentView.swift */; };
+		DA7722442A4CCAB200920590 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA7722432A4CCAB200920590 /* Assets.xcassets */; };
+		DA7722472A4CCAB200920590 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA7722462A4CCAB200920590 /* Preview Assets.xcassets */; };
+		DA7722512A4CCAB200920590 /* discoverRdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7722502A4CCAB200920590 /* discoverRdTests.swift */; };
+		DA77225B2A4CCAB200920590 /* discoverRdUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA77225A2A4CCAB200920590 /* discoverRdUITests.swift */; };
+		DA77225D2A4CCAB200920590 /* discoverRdUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA77225C2A4CCAB200920590 /* discoverRdUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA77224D2A4CCAB200920590 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA7722342A4CCAB100920590 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA77223B2A4CCAB100920590;
+			remoteInfo = discoverRd;
+		};
+		DA7722572A4CCAB200920590 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA7722342A4CCAB100920590 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA77223B2A4CCAB100920590;
+			remoteInfo = discoverRd;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA77223C2A4CCAB100920590 /* discoverRd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = discoverRd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA77223F2A4CCAB100920590 /* discoverRdApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = discoverRdApp.swift; sourceTree = "<group>"; };
+		DA7722412A4CCAB100920590 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DA7722432A4CCAB200920590 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA7722462A4CCAB200920590 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DA77224C2A4CCAB200920590 /* discoverRdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = discoverRdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA7722502A4CCAB200920590 /* discoverRdTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = discoverRdTests.swift; sourceTree = "<group>"; };
+		DA7722562A4CCAB200920590 /* discoverRdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = discoverRdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA77225A2A4CCAB200920590 /* discoverRdUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = discoverRdUITests.swift; sourceTree = "<group>"; };
+		DA77225C2A4CCAB200920590 /* discoverRdUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = discoverRdUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA7722392A4CCAB100920590 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA7722492A4CCAB200920590 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA7722532A4CCAB200920590 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA7722332A4CCAB100920590 = {
+			isa = PBXGroup;
+			children = (
+				DA77223E2A4CCAB100920590 /* discoverRd */,
+				DA77224F2A4CCAB200920590 /* discoverRdTests */,
+				DA7722592A4CCAB200920590 /* discoverRdUITests */,
+				DA77223D2A4CCAB100920590 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA77223D2A4CCAB100920590 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA77223C2A4CCAB100920590 /* discoverRd.app */,
+				DA77224C2A4CCAB200920590 /* discoverRdTests.xctest */,
+				DA7722562A4CCAB200920590 /* discoverRdUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA77223E2A4CCAB100920590 /* discoverRd */ = {
+			isa = PBXGroup;
+			children = (
+				DA77223F2A4CCAB100920590 /* discoverRdApp.swift */,
+				DA7722412A4CCAB100920590 /* ContentView.swift */,
+				DA7722432A4CCAB200920590 /* Assets.xcassets */,
+				DA7722452A4CCAB200920590 /* Preview Content */,
+			);
+			path = discoverRd;
+			sourceTree = "<group>";
+		};
+		DA7722452A4CCAB200920590 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DA7722462A4CCAB200920590 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DA77224F2A4CCAB200920590 /* discoverRdTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA7722502A4CCAB200920590 /* discoverRdTests.swift */,
+			);
+			path = discoverRdTests;
+			sourceTree = "<group>";
+		};
+		DA7722592A4CCAB200920590 /* discoverRdUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA77225A2A4CCAB200920590 /* discoverRdUITests.swift */,
+				DA77225C2A4CCAB200920590 /* discoverRdUITestsLaunchTests.swift */,
+			);
+			path = discoverRdUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA77223B2A4CCAB100920590 /* discoverRd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA7722602A4CCAB200920590 /* Build configuration list for PBXNativeTarget "discoverRd" */;
+			buildPhases = (
+				DA7722382A4CCAB100920590 /* Sources */,
+				DA7722392A4CCAB100920590 /* Frameworks */,
+				DA77223A2A4CCAB100920590 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = discoverRd;
+			productName = discoverRd;
+			productReference = DA77223C2A4CCAB100920590 /* discoverRd.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA77224B2A4CCAB200920590 /* discoverRdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA7722632A4CCAB200920590 /* Build configuration list for PBXNativeTarget "discoverRdTests" */;
+			buildPhases = (
+				DA7722482A4CCAB200920590 /* Sources */,
+				DA7722492A4CCAB200920590 /* Frameworks */,
+				DA77224A2A4CCAB200920590 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA77224E2A4CCAB200920590 /* PBXTargetDependency */,
+			);
+			name = discoverRdTests;
+			productName = discoverRdTests;
+			productReference = DA77224C2A4CCAB200920590 /* discoverRdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA7722552A4CCAB200920590 /* discoverRdUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA7722662A4CCAB200920590 /* Build configuration list for PBXNativeTarget "discoverRdUITests" */;
+			buildPhases = (
+				DA7722522A4CCAB200920590 /* Sources */,
+				DA7722532A4CCAB200920590 /* Frameworks */,
+				DA7722542A4CCAB200920590 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA7722582A4CCAB200920590 /* PBXTargetDependency */,
+			);
+			name = discoverRdUITests;
+			productName = discoverRdUITests;
+			productReference = DA7722562A4CCAB200920590 /* discoverRdUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA7722342A4CCAB100920590 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DA77223B2A4CCAB100920590 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					DA77224B2A4CCAB200920590 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = DA77223B2A4CCAB100920590;
+					};
+					DA7722552A4CCAB200920590 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = DA77223B2A4CCAB100920590;
+					};
+				};
+			};
+			buildConfigurationList = DA7722372A4CCAB100920590 /* Build configuration list for PBXProject "discoverRd" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA7722332A4CCAB100920590;
+			productRefGroup = DA77223D2A4CCAB100920590 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA77223B2A4CCAB100920590 /* discoverRd */,
+				DA77224B2A4CCAB200920590 /* discoverRdTests */,
+				DA7722552A4CCAB200920590 /* discoverRdUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA77223A2A4CCAB100920590 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA7722472A4CCAB200920590 /* Preview Assets.xcassets in Resources */,
+				DA7722442A4CCAB200920590 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA77224A2A4CCAB200920590 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA7722542A4CCAB200920590 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA7722382A4CCAB100920590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA7722422A4CCAB100920590 /* ContentView.swift in Sources */,
+				DA7722402A4CCAB100920590 /* discoverRdApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA7722482A4CCAB200920590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA7722512A4CCAB200920590 /* discoverRdTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA7722522A4CCAB200920590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA77225B2A4CCAB200920590 /* discoverRdUITests.swift in Sources */,
+				DA77225D2A4CCAB200920590 /* discoverRdUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA77224E2A4CCAB200920590 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA77223B2A4CCAB100920590 /* discoverRd */;
+			targetProxy = DA77224D2A4CCAB200920590 /* PBXContainerItemProxy */;
+		};
+		DA7722582A4CCAB200920590 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA77223B2A4CCAB100920590 /* discoverRd */;
+			targetProxy = DA7722572A4CCAB200920590 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DA77225E2A4CCAB200920590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA77225F2A4CCAB200920590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA7722612A4CCAB200920590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"discoverRd/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonderben.discoverRd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA7722622A4CCAB200920590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"discoverRd/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonderben.discoverRd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DA7722642A4CCAB200920590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonderben.discoverRdTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/discoverRd.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/discoverRd";
+			};
+			name = Debug;
+		};
+		DA7722652A4CCAB200920590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonderben.discoverRdTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/discoverRd.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/discoverRd";
+			};
+			name = Release;
+		};
+		DA7722672A4CCAB200920590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonderben.discoverRdUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = discoverRd;
+			};
+			name = Debug;
+		};
+		DA7722682A4CCAB200920590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonderben.discoverRdUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = discoverRd;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA7722372A4CCAB100920590 /* Build configuration list for PBXProject "discoverRd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA77225E2A4CCAB200920590 /* Debug */,
+				DA77225F2A4CCAB200920590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA7722602A4CCAB200920590 /* Build configuration list for PBXNativeTarget "discoverRd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA7722612A4CCAB200920590 /* Debug */,
+				DA7722622A4CCAB200920590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA7722632A4CCAB200920590 /* Build configuration list for PBXNativeTarget "discoverRdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA7722642A4CCAB200920590 /* Debug */,
+				DA7722652A4CCAB200920590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA7722662A4CCAB200920590 /* Build configuration list for PBXNativeTarget "discoverRdUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA7722672A4CCAB200920590 /* Debug */,
+				DA7722682A4CCAB200920590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA7722342A4CCAB100920590 /* Project object */;
+}
