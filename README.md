@@ -4,3 +4,4 @@ Equipo de Desarrollo:
     Junior Alfredo Ledesma, 
     Benderson Phanor, 
     Gabriel José González Then
+![1 launch screen](https://github.com/sonderben/discoverRd/assets/62113191/cac163c9-d376-4ae6-b8e8-e6e1f237d059)
