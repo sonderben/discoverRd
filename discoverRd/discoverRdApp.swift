@@ -11,7 +11,13 @@ import SwiftUI
 struct discoverRdApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            
+            if UserDefaults.standard.bool(forKey: "IS_LOGIN"){
+                ContentView()
+            }else{
+                Login()
+            }
+            
         }
     }
 }
